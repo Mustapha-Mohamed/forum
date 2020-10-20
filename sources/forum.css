@@ -1,6 +1,3 @@
-@import url('https://fonts.googleapis.com/css?family=Allerta&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Bree+Serif&display=swap');
-
 
 
 * {
@@ -9,6 +6,7 @@
 	outline: none;
 
 }
+
 
 
 .accueil{	
@@ -159,10 +157,10 @@ color: white;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 	width: 400px;
 	padding: 10px 20px;
-	background: #f4f7f8;
+	background: grey;
 	margin: 10px auto;
 	padding: 20px;
-	background: #f4f7f8;
+	background: grey;
 	/* height:300px; */
 	margin-top:10%;
 }
@@ -356,8 +354,7 @@ margin-right:5px;
 .deco input[type=submit]{
   
   margin-top:3%;
-  background: linear-gradient(#ff100a ,#850703);
-  background-color: #566573 ;
+  background-color:#129FEA; ;
   color: white;
   border: none;
   height:80%;
@@ -370,7 +367,7 @@ margin-right:5px;
 
 .deco input[type=submit]:hover{
 	
-	background: #FE100A;
+	background: #1abc9c;
 	cursor: pointer;	
 }
 
@@ -400,7 +397,7 @@ font-size:15px;
 color: white;
 text-align:center;
 vertical-align:middle;
-background-color: #BC2720;
+background-color: #129FEA;
 
 }
  
@@ -468,7 +465,7 @@ font-size:17px;
 
 
 .lecturesujet{
-color: red;
+color: #129FEA;
 text-decoration:none;	
 }
 
@@ -486,7 +483,8 @@ width:100%;
 }
 
 .ajoutsujet{
-background: linear-gradient(#ff100a ,#850703);
+	
+background:#129FEA;
 height:35px;
 color:white;
 border:none;
@@ -497,15 +495,15 @@ padding:5px;
 
 .ajoutsujet:hover{
 	
-background:red;
+background:#129FEA;;
 cursor:pointer;	
 }
 
 .topic input[type=submit]{
 border:none;
 background-color:rgba(0, 0, 0, 0);
-Color: red;
-font-size:15px;
+Color: white;
+font-size:19px;
 font-family: 'Allerta', sans-serif;
 margin-top: 5%;
 }
